@@ -53,13 +53,11 @@ function getWitnesses(): Array<Witness> {
   return [
     {
       name: "The Mad Hatter",
-      giveEvidence: () => "Not Guilty", // implicit return
+      giveEvidence: () => "Not Guilty",
     },
     {
       name: "The March Hare",
-      giveEvidence: () => {
-        return "Not Guilty";
-      }, // explicit return (same result as above!)
+      giveEvidence: () => "Not Guilty",
     },
     {
       name: "The Cheshire Cat",
